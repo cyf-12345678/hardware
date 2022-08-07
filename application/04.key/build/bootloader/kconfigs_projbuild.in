@@ -1,0 +1,3 @@
+source "D:/wifi/esp3243/components/bootloader/Kconfig.projbuild"
+source "D:/wifi/esp3243/components/esptool_py/Kconfig.projbuild"
+source "D:/wifi/esp3243/components/partition_table/Kconfig.projbuild"

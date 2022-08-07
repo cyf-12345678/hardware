@@ -1,0 +1,7 @@
+source "D:/wifi/esp3243/components/efuse/Kconfig"
+source "D:/wifi/esp3243/components/esp32c3/Kconfig"
+source "D:/wifi/esp3243/components/esp_common/Kconfig"
+source "D:/wifi/esp3243/components/esp_system/Kconfig"
+source "D:/wifi/esp3243/components/log/Kconfig"
+source "D:/wifi/esp3243/components/newlib/Kconfig"
+source "D:/wifi/esp3243/components/spi_flash/Kconfig"

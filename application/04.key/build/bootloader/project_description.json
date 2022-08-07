@@ -1,0 +1,20 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "D:/wifi/esp3243/components/bootloader/subproject",
+    "build_dir":          "D:/wifi/application/04.key/build/bootloader",
+    "config_file":        "D:/wifi/application/04.key/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v4.3.1-dirty",
+    "target":             "esp32c3",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "riscv32-esp-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "D:/wifi/esp3243/components/efuse/Kconfig;D:/wifi/esp3243/components/esp32c3/Kconfig;D:/wifi/esp3243/components/esp_common/Kconfig;D:/wifi/esp3243/components/esp_system/Kconfig;D:/wifi/esp3243/components/log/Kconfig;D:/wifi/esp3243/components/newlib/Kconfig;D:/wifi/esp3243/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "D:/wifi/esp3243/components/bootloader/Kconfig.projbuild;D:/wifi/esp3243/components/esptool_py/Kconfig.projbuild;D:/wifi/esp3243/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32c3", "esp_common", "esp_hw_support", "esp_rom", "esp_system", "esptool_py", "hal", "log", "main", "micro-ecc", "newlib", "partition_table", "riscv", "soc", "spi_flash", "" ],
+    "build_component_paths" : [ "D:/wifi/esp3243/components/bootloader", "D:/wifi/esp3243/components/bootloader_support", "D:/wifi/esp3243/components/efuse", "D:/wifi/esp3243/components/esp32c3", "D:/wifi/esp3243/components/esp_common", "D:/wifi/esp3243/components/esp_hw_support", "D:/wifi/esp3243/components/esp_rom", "D:/wifi/esp3243/components/esp_system", "D:/wifi/esp3243/components/esptool_py", "D:/wifi/esp3243/components/hal", "D:/wifi/esp3243/components/log", "D:/wifi/esp3243/components/bootloader/subproject/main", "D:/wifi/esp3243/components/bootloader/subproject/components/micro-ecc", "D:/wifi/esp3243/components/newlib", "D:/wifi/esp3243/components/partition_table", "D:/wifi/esp3243/components/riscv", "D:/wifi/esp3243/components/soc", "D:/wifi/esp3243/components/spi_flash", "" ]
+}

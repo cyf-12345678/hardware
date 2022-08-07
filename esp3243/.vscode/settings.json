@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.cjson": "jsonc",
+        "*.wxss": "css",
+        "*.wxs": "javascript",
+        "esp_spi_flash.h": "c"
+    }
+}
